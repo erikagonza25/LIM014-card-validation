@@ -1,0 +1,96 @@
+body{
+    font-family: 'Lora', serif;
+
+}
+
+.whiteLogo{
+    float: left;
+}
+.textInitial{
+    color: #313659;
+    text-align: center;
+    margin-right: 10%;
+    font-size:x-large;
+}
+
+#firstBody{
+    background-color: #313659;
+    clear: left;
+    text-align: center;
+    width:40%;
+    padding: 2% 2%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+}
+#firstLetters{
+    color: white;
+    font-size:large;
+    
+}
+#buttonOne{
+    font-size: 110%;
+    margin-top: 5%;
+    
+}
+.firstEnd{
+    display:flex;
+    background-color: #DCC6C9;
+    margin-top: 2%;
+}
+.finalText{
+    color: #313659;
+    font-size:large;
+    margin-left: auto;
+    margin-bottom: 3%;
+    
+}
+.creamLogo{
+    justify-content: right;
+    margin-left: 15%;
+}
+
+#secondPage{
+    display: none;
+}
+
+#secondBody{
+    background-color: #277E18;
+    clear: left;
+    text-align: center;
+    width:40%;
+    padding: 3% 3%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+
+}
+
+.secondLetters{
+
+    color: white;
+    font-size:large;
+   
+
+}
+
+
+#thirdPage{
+    display: none;
+}
+#thirdBody{ 
+    background-color: #B42E2E;
+    clear: left;
+    text-align: center;
+    width:40%;
+    padding: 3% 3%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+
+}
+.thirdLetters{
+    color: white;
+    font-size:large;
+
+}
