@@ -1,8 +1,10 @@
 # Validación de tarjeta de crédito
 El proyecto consiste en crear una aplicación web que permite al usuario validar su tarjeta de crédito y también ocultar todos los dígitos de su número de tarjeta menos los ultimos 4 caracteres.
 
-## IMAGEN FINAL
-
+## Proyecto Final
+![Screenshot](ImagenFinal1.jpg)
+![Screenshot](ImagenFinal2.jpg)
+![Screenshot](ImagenFinal3.jpg)
 ## Investigación UX
 Los usuarios de este proyecto estan conformados por empresas que necesitan realizar una transacción online mediante una tarjeta de crédito, para ello necesitan un programa que pueda validar dichas tarjetas.
 
