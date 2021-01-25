@@ -2,9 +2,9 @@
 El proyecto consiste en crear una aplicación web que permite al usuario validar su tarjeta de crédito y también ocultar todos los dígitos de su número de tarjeta menos los ultimos 4 caracteres.
 
 ## Proyecto Final
-![Screenshot](ImagenesFinal01.jpg)
-![Screenshot](ImagenesFinal02.jpg)
-![Screenshot](ImagenesFinal03.jpg)
+![Screenshot](PaginaInicio.jpg)
+![Screenshot](PaginaValida.jpg)
+![Screenshot](PaginaInvalida.jpg)
 ## Investigación UX
 Los usuarios de este proyecto estan conformados por empresas que necesitan realizar una transacción online mediante una tarjeta de crédito, para ello necesitan un programa que pueda validar dichas tarjetas.
 
@@ -34,6 +34,6 @@ Las recomendaciones recibidas para mejorar el prototipo fueron las siguientes:
 Todas las recomendaciones fueron realizadas.
 
 ## Prototipo Final
- ![Screenshot](PaginaInicio.jpg)
- ![Screenshot](PaginaValida.jpg)
- ![Screenshot](PaginaInvalida.jpg)
+ ![Screenshot](PrototipoFinal1.jpg)
+ ![Screenshot](PrototipoFinal2.jpg)
+ ![Screenshot](PrototipoFinal3.jpg)
