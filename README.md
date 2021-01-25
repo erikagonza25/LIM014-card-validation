@@ -34,6 +34,6 @@ Las recomendaciones recibidas para mejorar el prototipo fueron las siguientes:
 Todas las recomendaciones fueron realizadas.
 
 ## Prototipo Final
- ![Screenshot](PrototipoFinal1.jpg)
- ![Screenshot](PrototipoFinal2.jpg)
- ![Screenshot](PrototipoFinal3.jpg)
+ ![Screenshot](PaginaInicio.jpg)
+ ![Screenshot](PaginaValida.jpg)
+ ![Screenshot](PaginaInvalida.jpg)
