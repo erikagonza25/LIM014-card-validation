@@ -31,6 +31,8 @@ body{
 #buttonOne{
     font-size: 110%;
     margin-top: 5%;
+    background-color: #8CFF98;
+    border-color: #DCC6C9;
     
 }
 .firstEnd{
@@ -74,6 +76,10 @@ body{
 
 }
 
+#house{
+    background-color: #FFFFFC;
+    border-color: #277E18;
+}
 
 #thirdPage{
     display: none;
@@ -93,4 +99,8 @@ body{
     color: white;
     font-size:large;
 
+}
+#houseTwo{
+    background-color: #FFFFFC;
+    border-color: #B42E2E;
 }
