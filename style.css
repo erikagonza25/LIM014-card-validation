@@ -3,19 +3,23 @@ body{
 
 }
 
-.pageHeader{
+header{
     display: flex;
-}
-
-.textInitial{
     color: #313659;
     margin-left: 16%;
     font-size:x-large;
 }
+
+#whiteLogo{
+    margin-left: -20%;
+    margin-right: 20%;
+}
+
+
 .cardColors{
     border-radius: 5%;
 }
-#firstBody{
+#firstPage{
     background: linear-gradient(to right, #6662A4 0%, #313659 43%, #5C5675 100%);
     text-align: center;
     width:40%;
@@ -23,11 +27,8 @@ body{
     box-shadow: -3px 5px 10px  #000000;
     margin: 0% auto 0%;
     border-radius: 50px;
-}
-#firstLetters{
     color: white;
-    font-size:large;
-    
+    font-size:large;  
 }
 #buttonOne{
     font-size: 110%;
@@ -36,37 +37,33 @@ body{
     border-color: #DCC6C9;
     
 }
-.pageFooter{
+footer{
     display:flex;
     background-color: #DCC6C9;
     margin-top: 3.5%;
-}
-.finalText{
     color: #313659;
     font-size:large;
     margin-left: auto;
-    
-    
 }
-.creamLogo{
-    justify-content: right;
-    margin-left: 15%;
+h2{
+    margin-left: 35%;
 }
+
+#creamLogo{
+    margin-left: 24%;
+
+}
+
 
 #secondPage{
     display: none;
-
-}
-
-#secondBody{
     background: linear-gradient(to right, #5CA463 0%, #277E18 51%, #6CB771 100%);
     box-shadow: -3px 5px 10px  #000000;
     clear: left;
     text-align: center;
     width:40%;
-    padding: 3.5% 3.5%;
+    padding: 4% 2%;
     margin: 0% auto 0%;
-
     border-radius: 50px;
 }
 
@@ -83,15 +80,13 @@ body{
     border-color: #277E18;
 }
 
-#thirdPage{
+#thirdPage{ 
     display: none;
-}
-#thirdBody{ 
     background: linear-gradient(to right, #FF4141 0%, #B41616 45%, #FF0000 100%);
     box-shadow: -3px 5px 10px  #000000;
     text-align: center;
     width:40%;
-    padding: 3% 3%;
+    padding: 4% 2%;
     margin: 0% auto 0%;
     border-radius: 50px;
 
