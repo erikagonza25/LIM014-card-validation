@@ -26,13 +26,13 @@ btnEnviar.addEventListener('click', ()=>{
     // Si la tarjeta es valida, se visualizara el "secondPage"... Si la tarjeta es inválida se visualizara el "thirdBody", por ahora esta con Name
        if (isValid === true){
         document.getElementById("secondPage").style.display = "block";
-        document.getElementById("new").innerHTML += `<p id= "greentingNumber" class="secondLetters">${maskify}</p>`
-        document.getElementById("new").innerHTML += `<p id= "greentingName" class="secondLetters">${name+ " tu tarjeta es válida"}</p>`
+        document.getElementById("new").innerHTML += `<p class="secondLetters">${maskify}</p>`
+        document.getElementById("new").innerHTML += `<p class="secondLetters">${name+ " tu tarjeta es válida"}</p>`
 
              } else {
             document.getElementById("thirdPage").style.display = "block";
-            document.getElementById("newTwo").innerHTML += `<p id= "greentingNumberTwo" class="thirdLetters">${maskify}</p>`
-            document.getElementById("newTwo").innerHTML += `<p id= "greentingNameTwo" class="thirdLetters">${name+ " tu tarjeta es inválida"}</p>`
+            document.getElementById("newTwo").innerHTML += `<p class="thirdLetters">${maskify}</p>`
+            document.getElementById("newTwo").innerHTML += `<p class="thirdLetters">${name+ " tu tarjeta es inválida"}</p>`
             } 
 
 
