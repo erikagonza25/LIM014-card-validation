@@ -61,4 +61,3 @@ btnHouseTwo.addEventListener('click', ()=>{
 })
 
 
-console.log(validator);
