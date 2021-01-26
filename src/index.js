@@ -1,5 +1,5 @@
 import validator from './validator.js';
-let btnEnviar= document.getElementById("buttonOne")
+const btnEnviar= document.getElementById("buttonOne")
 
 btnEnviar.addEventListener('click', ()=>{
     document.getElementById("new").innerHTML = "";
@@ -37,7 +37,7 @@ btnEnviar.addEventListener('click', ()=>{
 
 
 })
-let btnHouse= document.getElementById("house")
+const btnHouse= document.getElementById("house")
 
 btnHouse.addEventListener('click', ()=>{
 
@@ -49,7 +49,7 @@ btnHouse.addEventListener('click', ()=>{
 
 })
 
-let btnHouseTwo= document.getElementById("houseTwo")
+const btnHouseTwo= document.getElementById("houseTwo")
 
 btnHouseTwo.addEventListener('click', ()=>{
 
