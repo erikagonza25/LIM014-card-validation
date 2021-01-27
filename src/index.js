@@ -23,7 +23,7 @@ btnEnviar.addEventListener('click', ()=>{
         return;
         }
 
-    // Si la tarjeta es valida, se visualizara el "secondPage"... Si la tarjeta es inválida se visualizara el "thirdBody", por ahora esta con Name
+    // Si la tarjeta es válida, se visualizara el "secondPage"... Si la tarjeta es inválida se visualizara el "thirdPage"
        if (isValid === true){
         document.getElementById("secondPage").style.display = "block";
         document.getElementById("cardInformation").innerHTML += `<p class="letters">${maskify}</p>`
