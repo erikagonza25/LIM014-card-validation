@@ -31,14 +31,14 @@ const validator = {
         let result = ""
         // Calcula el largo del número de tarjeta
         for(let i=0; i < card.length; i++){
-        // Oculta el largo de los números con #
-        if (i < card.length - 4) {
+         // Oculta el largo de los números con #
+         if (i < card.length - 4) {
             result += "#"
-        //Si no muestre los ultimos 4
-        } else {
-            result += card[i]
-        }
-        }
+          //Si no muestre los ultimos 4
+         } else {
+        result += card[i]
+            }
+            }
         return result
 
     }
