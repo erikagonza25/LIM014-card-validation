@@ -2,9 +2,9 @@ import validator from './validator.js';
 const btnEnviar= document.getElementById("buttonOne")
 
 btnEnviar.addEventListener('click', ()=>{
-    document.getElementById("new").innerHTML = "";
-    document.getElementById("newTwo").innerHTML = "";
-    let name = document.getElementById("nameText").value;
+    document.getElementById("cardInformation").innerHTML = "";
+    document.getElementById("secondInformation").innerHTML = "";
+    let name = document.getElementById("nameCard").value;
     let number = document.getElementById("numberCardV").value;
     let maskify = validator.maskify(number);
     let isValid = validator.isValid(number);
@@ -26,13 +26,13 @@ btnEnviar.addEventListener('click', ()=>{
     // Si la tarjeta es valida, se visualizara el "secondPage"... Si la tarjeta es inválida se visualizara el "thirdBody", por ahora esta con Name
        if (isValid === true){
         document.getElementById("secondPage").style.display = "block";
-        document.getElementById("new").innerHTML += `<p class="secondLetters">${maskify}</p>`
-        document.getElementById("new").innerHTML += `<p class="secondLetters">${name+ " tu tarjeta es válida"}</p>`
+        document.getElementById("cardInformation").innerHTML += `<p class="letters">${maskify}</p>`
+        document.getElementById("cardInformation").innerHTML += `<p class="letters">${name+ " tu tarjeta es válida"}</p>`
 
              } else {
             document.getElementById("thirdPage").style.display = "block";
-            document.getElementById("newTwo").innerHTML += `<p class="thirdLetters">${maskify}</p>`
-            document.getElementById("newTwo").innerHTML += `<p class="thirdLetters">${name+ " tu tarjeta es inválida"}</p>`
+            document.getElementById("secondInformation").innerHTML += `<p class="letters">${maskify}</p>`
+            document.getElementById("secondInformation").innerHTML += `<p class="letters">${name+ " tu tarjeta es inválida"}</p>`
             } 
 
 

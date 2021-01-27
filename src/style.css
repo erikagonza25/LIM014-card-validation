@@ -37,23 +37,6 @@ header{
     border-color: #DCC6C9;
     
 }
-footer{
-    display:flex;
-    background-color: #DCC6C9;
-    margin-top: 3.5%;
-    color: #313659;
-    font-size:large;
-    margin-left: auto;
-}
-h2{
-    margin-left: 35%;
-}
-
-#creamLogo{
-    margin-left: 24%;
-
-}
-
 
 #secondPage{
     display: none;
@@ -67,7 +50,7 @@ h2{
     border-radius: 50px;
 }
 
-.secondLetters{
+.letters{
 
     color: white;
     font-size:large;
@@ -91,12 +74,24 @@ h2{
     border-radius: 50px;
 
 }
-.thirdLetters{
-    color: white;
-    font-size:large;
 
-}
 #houseTwo{
     background-color: #FFFFFC;
     border-color: #B42E2E;
+}
+footer{
+    display:flex;
+    background-color: #DCC6C9;
+    margin-top: 3.5%;
+    color: #313659;
+    font-size:large;
+    margin-left: auto;
+}
+h2{
+    margin-left: 35%;
+}
+
+#creamLogo{
+    margin-left: 24%;
+
 }
