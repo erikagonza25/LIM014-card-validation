@@ -1,97 +1,104 @@
-body{
-    font-family: 'Lora', serif;
-
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  box-shadow: 1px 1px 5px #000;
 }
 
-header{
-    display: flex;
-    color: #313659;
-    margin-left: 16%;
-    font-size:x-large;
+.headerContent {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+h1 {
+  font-size: xxx-large;
+  color: #313659;
+}
+.mainBar {
+  margin: auto;
+  display: flex;
+  align-items: center;
 }
 
-#whiteLogo{
-    margin-left: -20%;
-    margin-right: 20%;
+main {
+  margin-top: 3.5%;
+}
+.cardColors {
+  border-radius: 5%;
+}
+#firstPage {
+  background: linear-gradient(to right, #6662a4 0%, #313659 43%, #5c5675 100%);
+  text-align: center;
+  width: 30%;
+  padding: 2% 2%;
+  box-shadow: -3px 5px 10px #000000;
+  margin: 0% auto 0%;
+  border-radius: 50px;
+  color: white;
+  font-size: large;
+}
+#buttonOne {
+  font-size: 105%;
+  margin-top: 5%;
+  border-radius: 10px;
+  background-color: #8cff98;
+  border-color: #dcc6c9;
+  color: #804e55;
 }
 
-
-.cardColors{
-    border-radius: 5%;
-}
-#firstPage{
-    background: linear-gradient(to right, #6662A4 0%, #313659 43%, #5C5675 100%);
-    text-align: center;
-    width:40%;
-    padding: 2% 2%;
-    box-shadow: -3px 5px 10px  #000000;
-    margin: 0% auto 0%;
-    border-radius: 50px;
-    color: white;
-    font-size:large;  
-}
-#buttonOne{
-    font-size: 110%;
-    margin-top: 5%;
-    background-color: #8CFF98;
-    border-color: #DCC6C9;
-    
+#secondPage {
+  display: none;
+  background: linear-gradient(to right, #5ca463 0%, #277e18 51%, #6cb771 100%);
+  box-shadow: -3px 5px 10px #000000;
+  clear: left;
+  text-align: center;
+  width: 30%;
+  padding: 4% 2%;
+  margin: 0% auto 0%;
+  border-radius: 50px;
 }
 
-#secondPage{
-    display: none;
-    background: linear-gradient(to right, #5CA463 0%, #277E18 51%, #6CB771 100%);
-    box-shadow: -3px 5px 10px  #000000;
-    clear: left;
-    text-align: center;
-    width:40%;
-    padding: 4% 2%;
-    margin: 0% auto 0%;
-    border-radius: 50px;
+.letters {
+  color: white;
+  font-size: large;
 }
 
-.letters{
-
-    color: white;
-    font-size:large;
-   
-
+#house {
+  background-color: #fffffc;
+  border-color: #277e18;
 }
 
-#house{
-    background-color: #FFFFFC;
-    border-color: #277E18;
+#thirdPage {
+  display: none;
+  background: linear-gradient(to right, #ff4141 0%, #b41616 45%, #ff0000 100%);
+  box-shadow: -3px 5px 10px #000000;
+  text-align: center;
+  width: 30%;
+  padding: 4% 2%;
+  margin: 0% auto 0%;
+  border-radius: 50px;
 }
 
-#thirdPage{ 
-    display: none;
-    background: linear-gradient(to right, #FF4141 0%, #B41616 45%, #FF0000 100%);
-    box-shadow: -3px 5px 10px  #000000;
-    text-align: center;
-    width:40%;
-    padding: 4% 2%;
-    margin: 0% auto 0%;
-    border-radius: 50px;
-
+#houseTwo {
+  background-color: #fffffc;
+  border-color: #b42e2e;
+}
+footer {
+  height: 100px;
+  box-shadow: 1px 1px 5px #000;
+  background-color: #dcc6c9;
+  margin-top: 3.5%;
+}
+h2 {
+  color: #313659;
+  font-size: 30px;
 }
 
-#houseTwo{
-    background-color: #FFFFFC;
-    border-color: #B42E2E;
-}
-footer{
-    display:flex;
-    background-color: #DCC6C9;
-    margin-top: 3.5%;
-    color: #313659;
-    font-size:large;
-    margin-left: auto;
-}
-h2{
-    margin-left: 35%;
-}
-
-#creamLogo{
-    margin-left: 24%;
-
+#creamLogo {
+  margin-left: 24%;
 }

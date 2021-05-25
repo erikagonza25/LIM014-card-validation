@@ -4,7 +4,7 @@ const validator = {
         let doubleUp = false;
         let sum = 0;
         let curDigit = "";
-        // Pone a la inversa el numero ingresado
+        // Recorre a la inversa el string ingresado
         for (let i = cardV.length - 1; i >= 0; i--) {
         //Toma cada caracter numerico enteros ingresado en la tarjeta
            curDigit = parseInt(cardV.charAt(i));
