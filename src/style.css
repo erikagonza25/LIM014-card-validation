@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
 }
+html {
+  height: 100vh;
+}
 body {
   font-family: "Lora", serif;
 }
@@ -29,7 +32,7 @@ h1 {
 }
 
 main {
-  margin-top: 3.5%;
+  margin-top: 8%;
 }
 .cardColors {
   border-radius: 5%;
@@ -95,7 +98,10 @@ footer {
   height: 100px;
   box-shadow: 1px 1px 5px #000;
   background-color: #dcc6c9;
-  margin-top: 3.5%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 h2 {
   color: #313659;
