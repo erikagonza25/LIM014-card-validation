@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
 }
+body {
+  font-family: "Lora", serif;
+}
 header {
   box-shadow: 1px 1px 5px #000;
 }
