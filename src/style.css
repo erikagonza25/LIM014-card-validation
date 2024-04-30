@@ -52,6 +52,7 @@ input[type=number] { -moz-appearance:textfield; }
 	width: 100%;
 	background: url(./images/Project/credit-card.jpg);
 	background-size: cover;
+  background-color: black;
 }
 
 .delantera .logo-marca {
